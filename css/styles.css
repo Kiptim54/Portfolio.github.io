@@ -1,39 +1,104 @@
-*{
-margin-right:-22px;
-margin-left:-5px;
-margin-top: -7px;
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Arsenal', sans-serif;
 }
-#header1{
 
-height:90vh;
-background-image: url('https://images.pexels.com/photos/1031641/pexels-photo-1031641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-background-size:100vw 100vh;
-background-attachment: fixed;
-background-repeat: no-repeat;
-
-
-
-
+.nav{
+    display:flex;
+    flex: 1;
+    background-color: black;
+    height:13vh;
 }
-.row {
-    margin-right: -29px;
-    margin-left: -13px;
+li{
+    display:inline-block;
+    
+    
+    
 }
-.heading1-text{
-    position: relative;
-    top:40%;
-   left:40%;
-   color:white;
+ul{
+    margin-top: 3%;
+    margin-bottom:2%;
+    display:inline-block;
 }
-#subline{
-    position: relative;
-    left:3%;
-    top:44%;
-
-}
-#navbar{
-    background: black;
+li a{
     color:white;
-    margin-top: 0;
-    padding-bottom: 40px;
+    text-decoration: none;
+}
+li a:hover{
+    color:white;
+    padding-bottom: 2%;
+    border-bottom:3px solid white;
+    text-decoration:none;
+}
+
+.header{
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    margin-bottom:2%;
+    background-image:url('https://images.pexels.com/photos/945453/pexels-photo-945453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.projects{
+    display:flex;
+    justify-content: space-between;
+
+}
+.project{
+    
+    background:lightgoldenrodyellow;
+    width:40%;
+    box-sizing: border-box;
+    margin:0 2% 2% 2%;
+    
+}
+.aboutme h3{
+    text-align:center;
+
+    
+
+}
+hr{
+    width:80vh;
+    
+}
+.aboutme p{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex:.5;
+    width:50%;
+    position: relative;
+    left:25%;
+    text-align: center;
+    margin-bottom:5%;
+    
+    
+}
+.footer{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    height:30vh;
+
+}
+.footer p{
+    padding:3%;
+}
+#navlead{
+    font-size:200%;
+    padding-bottom:4%;
+}
+.navbody{
+    position:relative;
+    left:300%;
+    font-size:120%;
+    padding-bottom:2%;
+
 }
