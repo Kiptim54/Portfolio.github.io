@@ -2,6 +2,7 @@ html, body{
     margin:0;
     padding:0;
     font-family: 'Arsenal', sans-serif;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -25,28 +26,53 @@ li a{
     color:white;
     text-decoration: none;
 }
-li a:hover{
+li a:hover, li a:active, li a:visited{
     color:white;
     padding-bottom: 2%;
     border-bottom:3px solid white;
     text-decoration:none;
+  
 }
 
 .header{
     display: flex;
-    color:white;
+    color:black;
     justify-content: center;
     align-items: center;
     height:80vh;
     margin-bottom:2%;
-    background-image:url('https://images.pexels.com/photos/945453/pexels-photo-945453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image:url('https://images.pexels.com/photos/64778/pexels-photo-64778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
+    background-position: top;
+    
+    
+}
+.header p {
+display: block;
+position:relative;
+top:20%;
+left: 11%;
+font-size:120%;
+
+}
+.header h1{
+    font-weight: bolder;
+}
+.intro{
+    border:black 2px solid;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:7%;
+    padding-right:7%;
+   
+    
 }
 .projects{
     display:flex;
     justify-content: space-between;
+    margin-top: 2%;
 
 }
 .project{
@@ -55,6 +81,7 @@ li a:hover{
     width:40%;
     box-sizing: border-box;
     margin:0 2% 2% 2%;
+    padding:2%;
     
 }
 .aboutme h3{
