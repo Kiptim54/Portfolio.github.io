@@ -45,18 +45,27 @@ li a:hover, li a:active, li a:visited{
     text-transform: uppercase;
     font-weight: bolder;
 }
+#me_photo{
+  width:10%;
+  border-radius: 90%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .icon .open{
     position: absolute;
     left:3%;
     top:3%;
-    font-size:180%;
+    font-size:200%;
     color:black;
 }
 .icon .close{
   position: absolute;
   right:3%;
   top:3%;
-  font-size:180%;
+  font-size:200%;
   color:black;
 
 }
@@ -125,10 +134,11 @@ hr{
     justify-content: center;
     box-sizing: border-box;
     flex:.5;
-    width:50%;
+    width:30%;
     position: relative;
     left:25%;
     text-align: center;
+    margin-left: 10%;
     margin-bottom:5%;
     height:40vh;
 

@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.close').click(function(){
       $('nav').hide()
       $('.open').show()
+      $('.close').hide()
     });
 
 
