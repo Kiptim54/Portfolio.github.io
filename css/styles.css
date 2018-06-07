@@ -3,13 +3,14 @@ html, body{
     padding:0;
     font-family: 'Arsenal', sans-serif;
     overflow-x: hidden;
+    width:100vw;
 }
 
-.nav{
+nav{
     display:flex;
     flex: 1;
-    background-color: black;
-    height:13vh;
+    background-color: white;
+
 }
 li{
     display:inline-block;
@@ -18,30 +19,47 @@ li{
     
 }
 ul{
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom:2%;
     display:inline-block;
 }
 li a{
-    color:white;
+    color:black;
     text-decoration: none;
+    margin: 15px;
 }
+
 li a:hover, li a:active, li a:visited{
-    color:white;
-    padding-bottom: 2%;
-    border-bottom:3px solid white;
+    color:black;
+    padding-bottom: 5%;
+    border-bottom:3px solid black;
     text-decoration:none;
   
 }
-
+#bodynav{
+    float:right;
+    margin-left:30px;
+}
+#brand{
+    float:left;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.icon{
+    position: absolute;
+    left:3%;
+    top:3%;
+    font-size:180%;
+    color:black;
+}
 .header{
     display: flex;
     color:black;
     justify-content: center;
     align-items: center;
-    height:80vh;
+    height:100vh;
     margin-bottom:2%;
-    background-image:url('https://images.pexels.com/photos/64778/pexels-photo-64778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image:url('https://images.unsplash.com/photo-1499744632587-7798360ba20f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4bd12836d31df8749ba296932b6897b9&auto=format&fit=crop&w=1050&q=80');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -118,14 +136,7 @@ hr{
 .footer p{
     padding:3%;
 }
-#navlead{
-    font-size:200%;
-    padding-bottom:4%;
-}
-.navbody{
-    position:relative;
-    left:300%;
-    font-size:120%;
-    padding-bottom:2%;
 
+nav{
+    color:black;
 }
