@@ -1,9 +1,17 @@
 $(document).ready(function(){
     $('nav').hide();
-    $('.icon').click(function(){
+    $('.close').hide();
+    $('.open').click(function(){
         $('nav').show()
-        $('.icon').hide()
-    })
+        $('.open').hide()
+        $('.close').show()
+    });
+    $('.close').click(function(){
+      $('nav').hide()
+      $('.open').show()
+    });
 
-    
-})
+
+
+
+});
