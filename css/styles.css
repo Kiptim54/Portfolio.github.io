@@ -2,7 +2,7 @@ html, body{
     margin:0;
     padding:0;
     font-family: 'Arsenal', sans-serif;
-    overflow-x: hidden;
+
     width:100vw;
 
 
@@ -38,6 +38,9 @@ li a:hover, li a:active, li a:visited{
     text-decoration:none;
 
 }
+.container-fluid {
+ width: 1000px;
+}
 #bodynav{
   font-size: 150%;
     margin-left:30px;
@@ -70,6 +73,9 @@ li a:hover, li a:active, li a:visited{
   font-size:200%;
   color:black;
 
+}
+.card{
+  width:100%;
 }
 .header{
     display: flex;
