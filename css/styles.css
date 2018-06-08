@@ -4,6 +4,8 @@ html, body{
     font-family: 'Arsenal', sans-serif;
     overflow-x: hidden;
     width:100vw;
+
+
 }
 
 nav{
@@ -37,16 +39,16 @@ li a:hover, li a:active, li a:visited{
 
 }
 #bodynav{
-    float:right;
+  font-size: 150%;
     margin-left:30px;
 }
 #brand{
-    float:left;
+    font-size: 200%;
     text-transform: uppercase;
     font-weight: bolder;
 }
 #me_photo{
-  width:10%;
+  width:15%;
   border-radius: 90%;
   height:auto;
   display: block;
@@ -74,7 +76,7 @@ li a:hover, li a:active, li a:visited{
     color:black;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height:90vh;
     margin-bottom:2%;
     background-image:url('https://images.unsplash.com/photo-1499744632587-7798360ba20f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4bd12836d31df8749ba296932b6897b9&auto=format&fit=crop&w=1050&q=80');
     background-repeat: no-repeat;
@@ -104,47 +106,11 @@ font-size:120%;
 
 
 }
-.projects{
-    display:flex;
-    justify-content: space-between;
-    margin-top: 2%;
-
-}
-.project{
-
-    background:lightgoldenrodyellow;
-    width:40%;
-    box-sizing: border-box;
-    margin:0 2% 2% 2%;
-    padding:2%;
-
-}
-.aboutme h3{
-    text-align:center;
 
 
 
-}
-hr{
-    width:80vh;
 
-}
-.aboutme p{
-    display:flex;
-    justify-content: center;
-    box-sizing: border-box;
-    flex:.5;
-    width:30%;
-    position: relative;
-    left:25%;
-    text-align: center;
-    margin-left: 10%;
-    margin-bottom:5%;
-    height:40vh;
-
-
-}
-.footer{
+footer{
     background:black;
     color:white;
     display:flex;
@@ -152,10 +118,18 @@ hr{
     height:30vh;
 
 }
-.footer p{
+footer p{
     padding:3%;
 }
 
 nav{
     color:black;
+}
+.about_me{
+    height:40vh;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: justify;
+
 }
