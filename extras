@@ -1,0 +1,264 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+    width:100vw;
+
+
+}
+
+nav{
+    display:flex;
+    flex: 1;
+    background-color: white;
+
+}
+li{
+    display:inline-block;
+
+
+
+}
+ul{
+    margin-top: 1%;
+    margin-bottom:2%;
+    display:inline-block;
+}
+li a{
+    color:black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+li a:hover, li a:active, li a:visited{
+    color:black;
+    padding-bottom: 5%;
+    border-bottom:3px solid black;
+    text-decoration:none;
+
+}
+.container-fluid {
+ width: 1000px;
+}
+#bodynav{
+  font-size: 150%;
+    margin-left:30px;
+}
+#brand{
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#me_photo{
+  width:15%;
+  border-radius: 90%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.icon .open{
+    position: absolute;
+    left:3%;
+    top:3%;
+    font-size:200%;
+    color:black;
+}
+.icon .close{
+  position: absolute;
+  right:3%;
+  top:3%;
+  font-size:200%;
+  color:black;
+
+}
+.card{
+  width:100%;
+}
+.header{
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    margin-bottom:2%;
+    background-image:url('https://images.unsplash.com/photo-1499744632587-7798360ba20f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4bd12836d31df8749ba296932b6897b9&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+
+
+
+}
+.header p {
+display: block;
+position:relative;
+top:20%;
+left: 11%;
+font-size:120%;
+
+
+}
+.header h1{
+    font-weight: bolder;
+}
+.intro{
+    border:black 2px solid;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:7%;
+    padding-right:7%;
+
+
+}
+
+
+
+
+footer{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    height:30vh;
+
+}
+footer p{
+    padding:3%;
+}
+
+nav{
+    color:black;
+}
+.about_me{
+    height:40vh;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Playfair+Display|Poppins:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Brenda Kiptim | Portfolio</title>
+</head>
+
+<body>
+  <!-- Portfolio navbar -->
+  <nav>
+    <ul id="navnav">
+      <li id="brand"><a href="index.html">Brenda Kiptim</a></li>
+      <li id="bodynav"><a href="#">About Me</a></li>
+      <li id="bodynav"><a href="#">Projects</a></li>
+      <li id="bodynav"><a href="#">Contact Me</a></li>
+    </ul>
+  </nav>
+  <!-- header -->
+  <div class="header">
+    <div class="icon">
+      <ion-icon class='close' name="close-circle"></ion-icon>
+      <ion-icon class='open' name="apps"></ion-icon>
+    </div>
+    <div class="intro animated fadeIn">
+      <h1 class="bounce">Brenda Kiptim </h1>
+      <p>| Software Developer |</p>
+    </div>
+  </div>
+  <!-- about me -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="about_me text-center">
+          <h1><strong>About Me</strong></h1>
+          <img id="me_photo" src="photos/WhatsApp Image 2018-06-06 at 3.53.23 PM.jpeg" alt="photo of me" class="img-repsonsive">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolo</p>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolo</p>
+        </div>
+
+      </div>
+      <hr>
+      <div class="container-fluid">
+        <h1 class="text-center">Projects</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <div class="card mb-3">
+              <img class="card-img-top img-responsive" src="photos/Screenshot from 2018-06-08 15-46-35.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- project2 -->
+          <div class="col-xs-6 text-center">
+            <div class="card mb-3">
+              <img class="card-img-top img-responsive" src="photos/Screenshot from 2018-06-04 07-51-31.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- new row -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 text-center">
+        <div class="card mb-3">
+          <img class="card-img-top img-responsive" src="photos/Screenshot from 2018-06-08 13-39-19.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- project4-->
+      <div class="col-xs-6 text-center">
+        <div class="card mb-3">
+          <img class="card-img-top img-responsive" src="" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- Portofolio footer -->
+  <footer>
+    <p>Brenda Kiptim &copy;</p>
+  </footer>
+
+  <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
