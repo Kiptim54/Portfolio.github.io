@@ -2,6 +2,8 @@
   width:100vw;
   margin:auto;
   padding:0px;
+  /* border: 2px green solid; */
+
 }
 element.style{
   display: block;
@@ -12,10 +14,14 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Montserrat', sans-serif;
-}
 
+}
+/* this is here momentarily to remove white space on right side of page */
+h2, hr, .row{
+  width:auto;
+}
 nav{
   background-color:black;
   height:10vh;
@@ -28,6 +34,7 @@ nav ul{
   margin:1%;
   margin-bottom:5%;
   margin-top:2%;
+  width: auto;
 }
 
 
@@ -70,12 +77,22 @@ header{
   margin-right:auto;
   margin-left:auto;
 }
+
 .introduction span{
   color:pink;
 }
+
+.projects{
+  width:70vw;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 5%;
+}
+
 footer{
   height:20vh;
-  position:fixed;
+  position:relative;
   bottom:0;
   left:0;
+  background-color:black;
 }
