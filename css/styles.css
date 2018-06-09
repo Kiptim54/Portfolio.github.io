@@ -69,6 +69,7 @@ header{
 .introduction{
   color:white;
 
+
 }
 .introduction h3{
   color:white;
@@ -76,6 +77,7 @@ header{
   margin-top:15%;
   margin-right:auto;
   margin-left:auto;
+
 }
 
 .introduction span{
@@ -88,11 +90,16 @@ header{
   margin-right:auto;
   margin-bottom: 5%;
 }
+.projects img{
+  margi:5%;
+}
 
 footer{
-  height:20vh;
-  position:relative;
-  bottom:0;
-  left:0;
   background-color:black;
+  color:white;
+  text-align:center;
+  padding: 3%;
+}
+footer p{
+  display:inline-block;
 }
