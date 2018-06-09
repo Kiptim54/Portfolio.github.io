@@ -23,7 +23,6 @@ h2, hr, .row{
   width:auto;
 }
 nav{
-  background-color:black;
   height:10vh;
   display:inline-block!important;
   font-size:14px;
@@ -41,18 +40,27 @@ nav ul{
 nav li{
   display:inline;
   margin:3%;
+
 }
 
 nav li a{
   color:white;
+  text-decoration: none;
+
 }
 
 nav li a:hover{
   color:white;
+  padding-bottom:.5%;
+  border-bottom:2px solid white;
+  text-decoration: none;
 }
 
 nav li a:visited{
   color:white;
+  padding-bottom:.5%;
+  border-bottom:2px solid white;
+  text-decoration: none;
 }
 .logo{
   font-size:20px;
@@ -62,19 +70,22 @@ nav li a:visited{
   font-size:14px;
 }
 header{
-  background-color:grey;
-  height:70vh;
+  background-image:url('https://images.pexels.com/photos/921322/pexels-photo-921322.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  height:100vh;
 }
 
 .introduction{
   color:white;
 
 
+
 }
 .introduction h3{
   color:white;
   width:70%;
-  margin-top:15%;
+  margin-top:25%;
+  font-size: 25px;
+
   margin-right:auto;
   margin-left:auto;
 
@@ -89,6 +100,7 @@ header{
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 5%;
+  margin-top:5%;
 }
 .projects img{
   margi:5%;
@@ -99,7 +111,13 @@ footer{
   color:white;
   text-align:center;
   padding: 3%;
+
 }
 footer p{
   display:inline-block;
+  margin:2%;
+  width: auto;
+}
+footer h3{
+  width:auto;
 }
