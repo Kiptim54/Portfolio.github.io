@@ -70,10 +70,10 @@ nav li a:visited{
   font-size:14px;
 }
 header{
-  background-image:url('https://images.pexels.com/photos/921322/pexels-photo-921322.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  height:100vh;
+  background-color:#006989;
   background-attachment: fixed;
   background-size: cover;
+  margin-bottom:-4px;
 }
 
 .introduction{
@@ -85,18 +85,38 @@ header{
 .introduction h3{
   color:white;
   width:70%;
-  margin-top:25%;
+  padding-top:20%;
   font-size: 25px;
-
+  padding-bottom:9%;
   margin-right:auto;
   margin-left:auto;
 
 }
 
 .introduction span{
-  color:pink;
+  color:#EA94AE;
 }
 
+#about_me{
+  background-image:url('https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-attachment:fixed;
+  height:50vh;
+  margin-top:0px;
+  padding:4%;
+  background-position:center;
+
+}
+#about_me h5{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+}
+#about_me h1{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
 .projects{
   width:70vw;
   margin-left:auto;
