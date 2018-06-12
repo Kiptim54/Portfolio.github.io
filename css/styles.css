@@ -19,7 +19,7 @@ html,body
 
 }
 /* this is here momentarily to remove white space on right side of page */
-h2, hr, .row{
+h2, h1, h5, h3,h4,h6,hr, .row{
   width:auto;
 }
 nav{
@@ -125,7 +125,11 @@ header{
   margin-top:5%;
 }
 .projects img{
-  margi:5%;
+  padding:0;
+  margin:0;
+}
+.imagescol col-md-6{
+  margin: -15px;
 }
 
 footer{
@@ -142,4 +146,18 @@ footer p{
 }
 footer h3{
   width:auto;
+}
+.articles h5{
+  display:inline-block;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+.article-section{
+  background-image: url('https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  height:50vh;
+  padding:3%;
+  background-attachment: fixed;
+  background-position:bottom;
+  background-size: cover;
 }
