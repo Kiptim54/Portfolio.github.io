@@ -72,6 +72,8 @@ nav li a:visited{
 header{
   background-image:url('https://images.pexels.com/photos/921322/pexels-photo-921322.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   height:100vh;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .introduction{
