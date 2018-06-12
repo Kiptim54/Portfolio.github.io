@@ -126,11 +126,11 @@ header{
 }
 .projects img{
   padding:0;
-  margin:0;
+  margin:2%;
 }
-.imagescol col-md-6{
+/* .imagescol col-md-6{
   margin: -15px;
-}
+} */
 
 footer{
   background-color:black;
