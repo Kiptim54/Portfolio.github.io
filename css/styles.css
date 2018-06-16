@@ -14,7 +14,7 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -104,6 +104,7 @@ header{
   margin-top:0px;
   padding:4%;
   background-position:center;
+  font-size:120%;
 
 }
 #about_me h5{
@@ -117,14 +118,14 @@ header{
   margin-left:auto;
   margin-right:auto;
 }
-.projects{
+#projects{
   width:70vw;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 5%;
   margin-top:5%;
 }
-.projects img{
+#projects img{
   padding:0;
   margin:2%;
 }
@@ -160,4 +161,7 @@ footer h3{
   background-attachment: fixed;
   background-position:bottom;
   background-size: cover;
+}
+footer a, footer a:hover {
+  color:white;
 }
