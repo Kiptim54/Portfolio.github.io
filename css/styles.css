@@ -154,9 +154,14 @@ footer h3{
   margin-right:auto;
 
 }
+.articles h3{
+  font-weight: bolder;
+  display: inline-block;
+  margin:2%;
+}
 .article-section{
   background-image: url('https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  height:50vh;
+  height:70vh;
   padding:3%;
   background-attachment: fixed;
   background-position:bottom;
@@ -164,4 +169,8 @@ footer h3{
 }
 footer a, footer a:hover {
   color:white;
+  font-size:120%;
+}
+nav{
+  position: fixed;
 }
