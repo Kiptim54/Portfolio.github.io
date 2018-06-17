@@ -214,3 +214,61 @@ footer a, footer a:hover {
 nav{
   /* position: fixed; */
 }
+
+
+
+
+
+
+
+@media (max-width: 769px)  {
+  .introduction h3 {
+      color: white;
+      width: 70%;
+      padding-top: 16%;
+      font-size: 21px;
+      padding-bottom: 9%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 67%;
+}
+
+.box button {
+    width: 21%;
+    padding: 3%;
+    margin: 5.5%;
+    text-transform: uppercase;
+    margin-top: 6%;
+    font-size: 5px;
+}
+.box .details {
+    background: white;
+    border: 1px solid black;
+    width: 40%;
+    height: 200%;
+    padding: 3%;
+    left: 0%;
+    top: -120%;
+    overflow: auto;
+    position: relative;
+    font-size: 44%;
+}
+#about_me {
+
+    font-size: 91%;
+    height: auto;
+}
+#about_me .box {
+    background: white;
+    height: 40%;
+    width: 90%;
+    margin-top: 8%;
+    margin:0;
+
+}
+}
+/*----------------------------------------------------------above are media queries----------------------------------------------------------*/
