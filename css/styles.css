@@ -100,12 +100,23 @@ header{
 #about_me{
   background-image:url('https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-attachment:fixed;
-  height:50vh;
+  height:70vh;
   margin-top:0px;
   padding:4%;
   background-position:center;
   font-size:120%;
 
+}#about_me .box{
+  background:grey;
+  height:40%;
+  width:90%;
+  margin-top:8%;
+}
+ .box button{
+  width:20%;
+  padding:1%;
+  margin:4%;
+  text-transform: uppercase;
 }
 #about_me h5{
   width:50%;
@@ -172,5 +183,5 @@ footer a, footer a:hover {
   font-size:120%;
 }
 nav{
-  position: fixed;
+  /* position: fixed; */
 }
