@@ -13,9 +13,30 @@ $(document).ready(function(){
     });
     $('#aboutme').click(function(){
       $('.details').fadeIn('slow');
+      $('#experiencesection').css('display', 'none');
+      $('#educationsection').css('display', 'none');
       $('#mesection').css('display', 'block');
       $('.details').animate({
         left: '-34%'
+
+      });
+    });
+    $("#workexperience").click(function(){
+      $('#mesection').css('display', 'none');
+      $('#educationsection').css('display', 'none');   
+      $('#experiencesection').css('display', 'block');
+      $('.details').animate({
+        left: 0
+
+      });
+    });
+    $("#eduexperience").click(function(){
+      $('#mesection').css('display', 'none');
+      $('#experiencesection').css('display', 'none');
+      $('#educationsection').css('display', 'block');
+
+      $('.details').animate({
+        left: '34%'
 
       });
     });
