@@ -123,23 +123,25 @@ header{
 
 
 }
-#experiencesection,#mesection,#educationsection{
-  display:none;
+#experiencesection,#educationsection{
   padding:3%;
   width:auto;
   display:none;
 }
-.box .details{
+#mesection{
+  padding:3%;
+  width:auto;
+}
+.box .details {
   background:white;
-  border:2px solid black;
+  border:1px solid black;
   width:40%;
   height:200%;
   padding:3%;
   left: 0%;
-  top: -145%;
-  overflow:hidden;
+  top: -150%;
+  overflow:auto;
   position: relative;
-  display:none;
 
 
 

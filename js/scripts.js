@@ -17,16 +17,16 @@ $(document).ready(function(){
       $('#educationsection').css('display', 'none');
       $('#mesection').css('display', 'block');
       $('.details').animate({
-        left: '-34%'
+        left:0
 
       });
     });
     $("#workexperience").click(function(){
       $('#mesection').css('display', 'none');
-      $('#educationsection').css('display', 'none');   
+      $('#educationsection').css('display', 'none');
       $('#experiencesection').css('display', 'block');
       $('.details').animate({
-        left: 0
+        left: '-34%'
 
       });
     });
