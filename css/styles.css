@@ -111,12 +111,29 @@ header{
   height:40%;
   width:90%;
   margin-top:8%;
+
 }
  .box button{
   width:20%;
   padding:1%;
-  margin:4%;
+  margin:5.5%;
   text-transform: uppercase;
+
+
+}
+.box .details{
+  background:white;
+  border:2px solid black;
+  width:40%;
+  height:180%;
+  padding:3%;
+  margin-top: -17%;
+  overflow: auto;
+  position: relative;
+
+
+
+
 }
 #about_me h5{
   width:50%;
