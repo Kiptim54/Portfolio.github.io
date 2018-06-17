@@ -118,18 +118,28 @@ header{
   padding:1%;
   margin:5.5%;
   text-transform: uppercase;
+  margin-top:4%;
 
 
+
+}
+#experiencesection,#mesection,#educationsection{
+  display:none;
+  padding:3%;
+  width:auto;
+  display:none;
 }
 .box .details{
   background:white;
   border:2px solid black;
   width:40%;
-  height:180%;
+  height:200%;
   padding:3%;
-  margin-top: -17%;
-  overflow: auto;
+  left: 0%;
+  top: -145%;
+  overflow:hidden;
   position: relative;
+  display:none;
 
 
 

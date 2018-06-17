@@ -11,7 +11,14 @@ $(document).ready(function(){
       $('.open').show()
       $('.close').hide()
     });
+    $('#aboutme').click(function(){
+      $('.details').fadeIn('slow');
+      $('#mesection').css('display', 'block');
+      $('.details').animate({
+        left: '-34%'
 
+      });
+    });
 
 
 
