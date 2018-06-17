@@ -120,8 +120,6 @@ header{
   text-transform: uppercase;
   margin-top:4%;
 
-
-
 }
 #experiencesection,#educationsection{
   padding:3%;
@@ -140,7 +138,7 @@ header{
   padding:3%;
   left: 0%;
   top: -150%;
-  overflow:auto;
+  overflow:hidden;
   position: relative;
 
 
@@ -158,12 +156,20 @@ header{
   margin-left:auto;
   margin-right:auto;
 }
+ion-icon {
+    display: inline-block;
+    font-size: 1200%;
+    width: auto;
+    display: inline-block;
+    margin:0;
+}
 #projects{
   width:70vw;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 5%;
   margin-top:5%;
+  font-size:12px;
 }
 #projects img{
   padding:0;
@@ -218,10 +224,7 @@ nav{
 
 
 
-
-
-
-@media (max-width: 769px)  {
+@media (max-width: 320px)  {
   .introduction h3 {
       color: white;
       width: 70%;
@@ -263,7 +266,11 @@ nav{
     height: auto;
 }
 #about_me .box {
+<<<<<<< HEAD
     background: white;
+=======
+    background:inherit;
+>>>>>>> gh-pages
     height: 40%;
     width: 90%;
     margin-top: 8%;
