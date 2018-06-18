@@ -200,17 +200,24 @@ footer h3{
   margin-right:auto;
 
 }
-.article1{
+.articles{
+ font-size: 14px;
 
+}
+.articles a{
+  font-size: 14px;
+  color:white;
+  text-transform: uppercase;
 }
 .articles h3{
   font-weight: bolder;
   display: inline-block;
   margin:2%;
+  margin:2%;
 
 }
 .article-section{
-  background-image: url('https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   height:70vh;
   padding:3%;
   background-attachment: fixed;
