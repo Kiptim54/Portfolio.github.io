@@ -1,16 +1,4 @@
 $(document).ready(function(){
-    $('nav').hide();
-    $('.close').hide();
-    $('.open').click(function(){
-        $('nav').show()
-        $('.open').hide()
-        $('.close').show()
-    });
-    $('.close').click(function(){
-      $('nav').hide()
-      $('.open').show()
-      $('.close').hide()
-    });
     $('#aboutme').click(function(){
       $('.details').fadeIn('slow');
       $('#experiencesection').css('display', 'none');
@@ -40,7 +28,21 @@ $(document).ready(function(){
 
       });
     });
-
-
+    /* code for scrolling navbar*/
+    $('#me').on('click', function(){
+      $('html, body').animate({
+          scrollTop: $('#about_me').offset().top
+      }, 1000)
+  });
+  $('#myprojects').on('click', function(){
+    $('html, body').animate({
+        scrollTop: $('#projects').offset().top
+    }, 1000)
+  });
+  $('#talk').on('click', function(){
+    $('html, body').animate({
+        scrollTop: $('#contact_me').offset().top
+    }, 1000)
+  });
 
 });
