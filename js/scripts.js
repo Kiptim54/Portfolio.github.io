@@ -29,20 +29,20 @@ $(document).ready(function(){
       });
     });
     /* code for scrolling navbar*/
-    $('#me').on('click', function(){
+    $('#me').click(function(){
       $('html, body').animate({
           scrollTop: $('#about_me').offset().top
       }, 1000)
   });
-  $('#myprojects').on('click', function(){
+  $('#myprojects').click(function(){
     $('html, body').animate({
         scrollTop: $('#projects').offset().top
     }, 1000)
   });
-  $('#talk').on('click', function(){
+  $('#talk').click(function(){
     $('html, body').animate({
         scrollTop: $('#contact_me').offset().top
-    }, 1000)
+    }, 1500)
   });
 
 });
