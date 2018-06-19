@@ -277,7 +277,14 @@ nav{
 
 
 
-@media (max-width: 320px)  {
+@media (max-width: 600px)  {
+  *{
+    scroll-behavior: smooth;
+
+  }
+  ion-icon{
+    display: none;
+  }
   .introduction h3 {
       color: white;
       width: 70%;
@@ -309,7 +316,6 @@ nav{
     padding: 3%;
     left: 0%;
     top: -120%;
-    overflow: auto;
     position: relative;
     font-size: 44%;
 }
@@ -319,11 +325,7 @@ nav{
     height: auto;
 }
 #about_me .box {
-<<<<<<< HEAD
     background: white;
-=======
-    background:inherit;
->>>>>>> gh-pages
     height: 40%;
     width: 90%;
     margin-top: 8%;
