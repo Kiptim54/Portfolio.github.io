@@ -216,6 +216,9 @@ footer{
   color:white;
   text-align:center;
   padding: 3%;
+  position: relative;
+  bottom:0;
+  left:0;
 
 }
 footer p{
@@ -250,12 +253,13 @@ footer h3{
 }
 .article-section{
   background-image: url('https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  height:70vh;
+  height:40vh;
   padding:3%;
   background-attachment: fixed;
   background-position:bottom;
   background-size: cover;
   display:inline-block;
+  margin-bottom: 3%;
 }
 
 .link a{
@@ -278,10 +282,7 @@ nav{
 
 
 @media (max-width: 600px)  {
-  *{
-    scroll-behavior: smooth;
 
-  }
   ion-icon{
     display: none;
   }
@@ -331,6 +332,11 @@ nav{
     margin-top: 8%;
     margin:0;
 
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  display: none;
 }
 }
 /*----------------------------------------------------------above are media queries----------------------------------------------------------*/
