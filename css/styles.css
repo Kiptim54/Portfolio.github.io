@@ -225,6 +225,32 @@ footer h3{
   background-size: cover;
   display:inline-block;
 }
+/* #commune:hover image{
+  opacity: .1;
+
+}
+#commune:hover .link{
+  width: 95%;
+  position: absolute;
+  background: black;
+  height: 280px;
+  right:1%;
+  bottom:3%;
+  opacity: .9;
+  overflow-x: hidden;
+  transition: 1s ease;
+  font-size:130%;
+  transition: translate(-50%, -50%);
+
+}
+.link a{
+  color:white;
+  position:relative;
+  top:35%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+} */
 footer a, footer a:hover {
   color:white;
   font-size:120%;
