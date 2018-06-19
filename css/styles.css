@@ -258,7 +258,11 @@ opacity: .9
   background-attachment: fixed;
   background-position:bottom;
   background-size: cover;
+<<<<<<< HEAD
   /* display:inline-block; */
+=======
+  display:inline-block;
+  margin-bottom: 20%;
 }
 
 .link a{
