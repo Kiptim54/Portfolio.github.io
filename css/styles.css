@@ -211,19 +211,19 @@ opacity: .9
 
 }
 
-footer{
+#contact_me{
   background-color:black;
   color:white;
   text-align:center;
   padding: 3%;
 
 }
-footer p{
+#contact_me p{
   display:inline-block;
   margin:2%;
   width: auto;
 }
-footer h3{
+#contact_me h3{
   width:auto;
 }
 .articles h5{
@@ -255,7 +255,7 @@ footer h3{
   background-attachment: fixed;
   background-position:bottom;
   background-size: cover;
-  display:inline-block;
+  /* display:inline-block; */
 }
 
 .link a{
@@ -266,7 +266,7 @@ footer h3{
   font-weight: bolder;
   text-decoration: none;
 }
-footer a, footer a:hover {
+#contact_me a, #contact_me a:hover {
   color:white;
   font-size:120%;
 }
@@ -330,6 +330,9 @@ nav{
     width: 90%;
     margin-top: 8%;
     margin:0;
+
+}
+#contact_me{
 
 }
 }
