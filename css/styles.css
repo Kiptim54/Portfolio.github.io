@@ -181,7 +181,7 @@ ion-icon {
 .overlay{
 position: absolute;
 background:black;
-width:100%;
+width:98%;
 height:100%;
 left:4%;
 bottom:3%;
@@ -189,7 +189,12 @@ opacity: 0;
 transition: 1s ease;
 
 }
-
+img{
+  -webkit-box-shadow: 6px 2px 3px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    6px 2px 3px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+ box-shadow:         6px 2px 3px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+}
 #downtime:hover img,#bookclub:hover img,#snaps:hover img,#commune:hover img{
 opacity: .2
 }
