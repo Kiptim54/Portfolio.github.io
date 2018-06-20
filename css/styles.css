@@ -2,6 +2,7 @@
   width:100vw;
   margin:auto;
   padding:0px;
+
   /* border: 2px green solid; */
 
 }
@@ -27,6 +28,9 @@ nav{
   display:inline-block!important;
   font-size:14px;
   position: fixed;
+  z-index: 4;
+}
+
 
 
 
@@ -37,7 +41,7 @@ nav ul{
   margin-bottom:5%;
   margin-top:2%;
   width: auto;
-  color:pink;
+
 
 
 }
@@ -67,6 +71,7 @@ nav li a:visited{
   padding-bottom:.5%;
   border-bottom:2px solid white;
   text-decoration: none;
+  position: fixed;
 }
 .logo{
   font-size:20px;
@@ -289,6 +294,22 @@ opacity: .9
 {
   #experiencesection, #educationsection, #mesection{
         font-size: 7px;
+  }
+  nav{
+    height:10vh;
+    display:inline-block!important;
+    font-size:14px;
+    position: fixed;
+    z-index: 4;
+  }
+  .scroll{
+    height:10vh;
+    display:inline-block!important;
+    font-size:14px;
+    position: fixed;
+    background: yellow;
+    z-index: 4;
+
   }
   ion-icon{
     display: none;

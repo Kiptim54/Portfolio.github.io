@@ -32,7 +32,10 @@ $(document).ready(function(){
     $('#me').click(function(){
       $('html, body').animate({
           scrollTop: $('#about_me').offset().top
+
       }, 1000)
+
+
   });
   $('#myprojects').click(function(){
     $('html, body').animate({
@@ -42,11 +45,20 @@ $(document).ready(function(){
   $('#talk').click(function(){
     $('html, body').animate({
         scrollTop: $('#contact_me').offset().top
-    }, 1500)
+    }, 2000)
   });
-  $('window').scroll(function(){
-    if($('window').scrollTop()>50){
-      $('nav').css('color', 'blue');
-    }
-  })
+  $('#top').click(function(){
+    $('html body').animate({
+      scrollTop: $('#scrolltop').offset().top
+    },2000)
+  });
+
+  $(window).scroll(function() { // check if scroll event happened
+       if ($(document).scrollTop() > 60) { // check if user scrolled more than 50 from top of the browser window
+         $("nav").css({"background-color": "#006989", "opacity":".8"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+       } else {
+         $("nav").css("background-color", "transparent"); // if not, change it back to transparent
+       }
+     });
+
 });
