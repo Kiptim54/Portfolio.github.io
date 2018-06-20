@@ -53,7 +53,7 @@ $(document).ready(function(){
     },2000)
   });
 
-  $(window).scroll(function() { // check if scroll event happened
+  $(window).scroll(function() {
        if ($(document).scrollTop() > 60) { // check if user scrolled more than 50 from top of the browser window
          $("nav").css({"background-color": "#006989", "opacity":".8"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
        } else {
