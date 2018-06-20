@@ -54,10 +54,10 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function() {
-       if ($(document).scrollTop() > 60) { // check if user scrolled more than 50 from top of the browser window
-         $("nav").css({"background-color": "#006989", "opacity":".8"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+       if ($(document).scrollTop() > 50) {
+         $("nav").css({"background-color": "#006989", "opacity":".8"});
        } else {
-         $("nav").css("background-color", "transparent"); // if not, change it back to transparent
+         $("nav").css("background-color", "transparent");
        }
      });
 
