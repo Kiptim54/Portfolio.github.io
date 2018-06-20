@@ -44,5 +44,9 @@ $(document).ready(function(){
         scrollTop: $('#contact_me').offset().top
     }, 1500)
   });
-
+  $('window').scroll(function(){
+    if($('window').scrollTop()>50){
+      $('nav').css('color', 'blue');
+    }
+  })
 });

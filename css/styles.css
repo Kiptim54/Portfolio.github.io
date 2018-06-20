@@ -26,6 +26,8 @@ nav{
   height:10vh;
   display:inline-block!important;
   font-size:14px;
+  position: fixed;
+
 
 
 
@@ -35,6 +37,7 @@ nav ul{
   margin-bottom:5%;
   margin-top:2%;
   width: auto;
+  color:pink;
 
 
 }
@@ -43,14 +46,12 @@ nav ul{
 nav li{
   display:inline;
   margin:3%;
-
-
-
 }
 
 nav li a{
   color:white;
   text-decoration: none;
+  z-index: 5;
 
 }
 
@@ -279,9 +280,7 @@ opacity: .9
   color:white;
   font-size:120%;
 }
-nav{
-  /* position: fixed; */
-}
+
 
 
 
@@ -307,6 +306,9 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 67%;
+}
+header{
+  z-index: -1;
 }
 
 .box button {
