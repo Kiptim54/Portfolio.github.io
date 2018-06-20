@@ -28,18 +28,23 @@ nav{
   font-size:14px;
 
 
+
 }
 nav ul{
   margin:1%;
   margin-bottom:5%;
   margin-top:2%;
   width: auto;
+
+
 }
 
 
 nav li{
   display:inline;
   margin:3%;
+
+
 
 }
 
@@ -258,9 +263,6 @@ opacity: .9
   background-attachment: fixed;
   background-position:bottom;
   background-size: cover;
-<<<<<<< HEAD
-  /* display:inline-block; */
-=======
   display:inline-block;
   margin-bottom: 20%;
 }
@@ -284,8 +286,11 @@ nav{
 
 
 
-@media (max-width: 600px)  {
-
+@media only screen and (max-width: 480px), only screen and (max-width: 760px)
+{
+  #experiencesection, #educationsection, #mesection{
+        font-size: 7px;
+  }
   ion-icon{
     display: none;
   }
@@ -333,18 +338,18 @@ nav{
     height: 40%;
     width: 90%;
     margin-top: 8%;
-    margin:0;
+    margin:18px;
 
 }
-<<<<<<< HEAD
-#contact_me{
-
-=======
-footer{
-  position: absolute;
-  bottom: 0;
-  display: none;
->>>>>>> f70faf0e467cba053ca891b9a8614062c3312e60
+#contact_me {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    position: relative;
+    bottom: -1200px;
+    left: 3px;
 }
+
 }
 /*----------------------------------------------------------above are media queries----------------------------------------------------------*/
