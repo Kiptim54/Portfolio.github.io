@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 1;
+}
+
+.skewed {
+  position: relative;
+  background: lightgray;
+  height: 50vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+nav ul :nth-child(2) {
+  margin-left: auto;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav ul a .nav-header {
+  font-weight: bold;
+  list-style: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+nav ul a .nav-link {
+  list-style: none;
+  color: black;
+}
+/*# sourceMappingURL=portfolio.css.map */
